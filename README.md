@@ -8,82 +8,39 @@
 
 ## 基础篇
 
-### 类型
+### [基本语法](/1.0.grammar/README.md)
 
-* Number(数字)
-* String(字符串)
-* Boolean(布尔)
-* Symbol(符号)(ES6)
-* Object(对象)
-  * Function(函数)
-  * Array(数组)
-  * Date(日期)
-  * RegExp(正则表达式)
-* Null(空)
-* Undefined(未定义)
+> **主要内容** 介绍Javascript中基本语法
 
-### 运算符
+### [基础类型](/1.1.type/README.md)
 
-* 算术运算符
-* 赋值运算符
-* 按位操作符
-* 逗号操作符
-* 比较操作符
-* 条件运算符
-* 圆括号运算符
-* 逻辑运算符
-* 运算符优先级
+> **主要内容** 介绍Javascript中基础类型,及其基本用法
 
-### 控制结构
+* [变量(let var const)](/1.1.type/README.md##变量)
+* [类型](/1.1.type/README.md##类型)
+* [类型转换](/1.1.type/README.md##类型转换)
+* [字面量](/1.1.type/README.md##字面量)
 
-### function
+### [运算符](/1.2.运算符/README.md)
 
-* Arguments 对象
-* 箭头函数
-* 函数表达式
-* 默认参数值
-* 方法的定义
-* 剩余参数
-* getter
-* setter
-* async
-* function*
-* yield
-* yield*
+### [控制结构](/1.3.控制结构/README.md)
 
-### class
+### [function](/1.4.function/README.md)
 
-* 构造方法
-* extends
-* static
-* 类表达式
+### [class](/1.5.class/README.md)
 
-### 对象
-
-* 属性访问器
-* 展开语法
-* 解构赋值
-* delete
-* instanceof
-* new运算符
-* new.target
-* super
-* this
-* typeof
-* void 运算符
+### [对象](/1.6.object/README.md)
 
 ## 进阶篇
 
-### 原型链
+### [原型链](/2.1.proto/README.md)
 
-### this
+### [this](/2.2.this/README.md)
 
-### 闭包
+### [闭包](/2.3.closure/README.md)
 
 ## 扩展篇
 
-### 模块化
+### [模块化](/3.1.module/README.md)
 
-### function.apply&call
-
-### object.defineProperty
+### [高级函数](/3.2.advance.function/README.md)

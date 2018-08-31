@@ -88,11 +88,11 @@ Javascript支持的值的类型有:
   * [Undefined(未定义)](./src/1.1.8.js) : 未赋值或未定义
   
 * __对象__ 其中内置对象类型有:
-  * Object(对象)
+  * [Object(对象)](./src/1.1.9.js)
   * Function(函数)
-  * Array(数组)
+  * [Array(数组)](./src/1.1.10.js)
   * Date(日期)
-  * RegExp(正则表达式)
+  * [RegExp(正则表达式)](./src/1.1.11.js)
   * ... ...
 
 除了上述类型,还可以自定义(*对象*)类型,
@@ -100,5 +100,55 @@ Javascript支持的值的类型有:
 ## 字面量
 
 ```javascript
+// 数组字面量
+var coffees = ["French Roast", "Colombian", "Kona"];
+var a=[3];
+console.log(a.length); // 1
+console.log(a[0]); // 3
+
+var myList = ['home', , 'school', , ];
+
+// 整数字面量
+// 0, 117 ,-345 //(十进制, 基数为10)
+// 015, 0001 and -0o77 //(八进制, 基数为8)
+// 0x1123, 0x00111 and -0xF1A7 //(十六进制, 基数为16或"hex")
+// 0b11, 0b0011 and -0b11 //(二进制, 基数为2)
+
+//浮点数字面量
+//[(+|-)][digits][.digits][(E|e)[(+|-)]digits]
+// 3.14
+// -.2345789 // -0.23456789
+// -3.12e+12  // -3.12*1012
+// .1e-23    // 0.1*10-23=10-24=1e-24
+
+//对象字面量
+var car = { manyCars: {a: "Saab", "b": "Jeep"}, 7: "Mazda" };
+console.log(car.manyCars.b); // Jeep
+console.log(car[7]); // Mazda
+
+// 增强对象字面量 ES6
+var obj = {
+    // __proto__
+    __proto__: theProtoObj,
+    // Shorthand for ‘handler: handler’
+    handler,
+    // Methods
+    toString() {
+     // Super calls
+     return "d " + super.toString();
+    },
+    // Computed (dynamic) property names
+    ['prop_' + (() => 42)()]: 42
+};
+
+// 正则表达式字面量
+
+var re = /ab+c/;
+
+// 字符串字面量
+
+// 模版字符串
+var name = "Bob", time = "today";
+var question = `Hello ${name}, how are you ${time}?`;
 
 ```

@@ -2,9 +2,9 @@
 
 这是个关于Javascript的技术栈,其中分为三部分:
 
-* [基础篇](##基础篇) : 介绍Javascript的基础知识,包括语法,基础类型等基本内容
-* [进阶篇](##进阶篇) : 介绍Javascript的原型链,闭包等知识
-* [扩展篇](##扩展篇) : 介绍Javascript的模块化,一些常用技巧,javascript非常有用的特性等
+* [基础篇](#基础篇) : 介绍Javascript的基础知识,包括语法,基础类型等基本内容
+* [进阶篇](#进阶篇) : 介绍Javascript的原型链,闭包等知识
+* [扩展篇](#扩展篇) : 介绍Javascript的模块化,一些常用技巧,javascript非常有用的特性等
 
 ## 基础篇
 
@@ -16,10 +16,10 @@
 
 > **主要内容** 介绍Javascript中基础类型,及其基本用法
 
-* [变量(let var const)](/1.1.type/README.md##变量)
-* [类型](/1.1.type/README.md##类型)
-* [类型转换](/1.1.type/README.md##类型转换)
-* [字面量](/1.1.type/README.md##字面量)
+* [变量(let var const)](/1.1.type/README.md#变量)
+* [类型](/1.1.type/README.md#类型)
+* [类型转换](/1.1.type/README.md#类型转换)
+* [字面量](/1.1.type/README.md#字面量)
 
 ### [运算符](/1.2.运算符/README.md)
 

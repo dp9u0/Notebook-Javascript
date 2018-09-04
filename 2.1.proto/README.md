@@ -88,6 +88,8 @@ Foo Object同时也作为函数实例,因此它们的构造函数相同,都是Fu
 * __proto__是属于实例的,用来访问这个实例的构造函数的原型
 
 > __proto__标准应该为属性:[[Prototype]],但是目前主流浏览器以及Node都为实例实现了getter:__proto__这个 __非标准功能__.
+>
+> 获取实例的__proto__真正应该使用的应该是 ```Object.getPrototypeOf(instance)```
 
 即prototype和__proto__ 都是用来访问一个特殊实例的,这个实例就是某个构造函数的原型(这个原型并不是通过构造函数构造的一个实例).
 

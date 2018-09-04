@@ -35,9 +35,7 @@
 
 ### [原型链](/2.1.proto/README.md)
 
-### [this](/2.2.this/README.md)
-
-### [闭包](/2.3.closure/README.md)
+### [执行上下文、this、作用域、作用域链、闭包](/2.2.context&scope&closure/README.md)
 
 ## 扩展篇
 

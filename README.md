@@ -27,9 +27,9 @@
 
 ### [function](/1.4.function/README.md)
 
-### [class](/1.5.class/README.md)
-
 ### [对象](/1.6.object/README.md)
+
+### [class](/1.7.class/README.md)
 
 ## 进阶篇
 

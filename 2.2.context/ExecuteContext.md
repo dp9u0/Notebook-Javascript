@@ -85,8 +85,8 @@ console.log('v2:' + v2);
     │  │  ExecuteContext Global         │  │
     │  └────────────────────────────────┘  │
     └──────────────────────────────────────┘
-    2. fn 返回,ESStac.pop();
-    3. 开始执行 Bar_fn(),push Bar_fn 的ExecuteContext(fn已经退出,Bar并未返回)
+    2. fn返回,ESStack.pop();
+    3. 开始执行 Bar_fn(),ECStack.push(ExecuteContext Bar_fn)
     ┌──────────────────────────────────────┐
     │  ┌────────────────────────────────┐  │
     │  │  ExecuteContext Bar_fn         │  │
@@ -99,7 +99,7 @@ console.log('v2:' + v2);
     │  └────────────────────────────────┘  │
     └──────────────────────────────────────┘
     3. Bar_fn 返回,ESStac.pop();
-    4. 开始执行 Bar_fn2(),push Bar_fn2 的ExecuteContext(fn,Bar_fn已经退出,Bar并未返回)
+    4. 开始执行 Bar_fn2(),ECStack.push(ExecuteContext Bar_fn2)
     ┌──────────────────────────────────────┐
     │  ┌────────────────────────────────┐  │
     │  │  ExecuteContext Bar_fn2        │  │

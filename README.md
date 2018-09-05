@@ -35,7 +35,14 @@
 
 ### [原型链](/2.1.proto/README.md)
 
-### [执行上下文、this、作用域、作用域链、闭包](/2.2.context&scope&closure/README.md)
+### [执行上下文、this、作用域、闭包](/2.2.context/README.md)
+
+* [执行上下文](/2.2.context/ExecuteContext.md)
+* [VirableObject](/2.2.context/VariableObject.md)
+* [this](/2.2.context/This.md)
+* [作用域与作用域链](/2.2.context/Scope.md)
+* [闭包](/2.2.context/Closure.md)
+* [其他一些](/2.2.context/Extend.md)
 
 ## 扩展篇
 

@@ -1,16 +1,22 @@
 var a = 10;
+var ttt;
 
 function Foo() {
     var init = 10;
 
     function Bar() {
-        return ++init;
+        return init + create;
     }
 
-
-    return Bar;
+    function Bar2() {
+        return 1;
+    }
+    let create = 10;
+    let temp = Bar();
+    let temp2 = Bar2();
+    return Bar2;
 }
-2
+
 
 function test() {
     var test = 3;
@@ -32,12 +38,20 @@ function test() {
 var f = function() {};
 let b = 1; {
     let ff = function() {};
+    let aaa = '';
     test(); {
+        function test22222() {
+            return aaa;
+        }
+        ttt = test22222;
         let ff2 = function() {};
         test();
     }
 }
 test();
 let f1 = Foo();
+const a1 = '';
 f1();
 f1();
+const a2 = '';
+var attt = 100;

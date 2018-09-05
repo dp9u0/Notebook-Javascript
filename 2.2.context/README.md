@@ -22,8 +22,13 @@
 本文参考了 [Dmitry Soshnikov](http://dmitrysoshnikov.com/) 的一系列博文,写的非常精彩:
 
 [Chapter 1. Execution Contexts](http://dmitrysoshnikov.com/ecmascript/chapter-1-execution-contexts/)
+
 [Chapter 2. Variable object](http://dmitrysoshnikov.com/ecmascript/chapter-2-variable-object/)
+
 [Chapter 3. This](http://dmitrysoshnikov.com/ecmascript/chapter-3-this/)
+
 [Chapter 4. Scope chain](http://dmitrysoshnikov.com/ecmascript/chapter-4-scope-chain/)
+
 [Chapter 5. Functions](http://dmitrysoshnikov.com/ecmascript/chapter-5-functions/)
+
 [Chapter 6. Closures](http://dmitrysoshnikov.com/ecmascript/chapter-6-closures/)

@@ -9,11 +9,12 @@ function Foo() {
     return Bar;
 }
 
-var f = Foo();
+let f = Foo();
 f();
 
-// f[[Scope]] === Bar.[[Scope]]
 // 0:
 // Closure (Foo) {type: "closure", name: "Foo", object: {…}}
 // 1:
+// Script {type: "script", name: "", object: {…}}
+// 2:
 // Global {type: "global", name: "", object: Window}

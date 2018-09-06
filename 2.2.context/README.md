@@ -1,6 +1,6 @@
 # 执行上下文、this、作用域、闭包
 
-本篇介绍Javascript代码执行的一些概念 : 执行上下文,作用域,作用域链,闭包
+本篇介绍Javascript(ES3)代码执行的一些概念 : 执行上下文,作用域,作用域链,闭包
 
 首先会介绍代码在执行过程中,从方法调用发起切换上下文.
 
@@ -32,3 +32,5 @@
 [Chapter 5. Functions](http://dmitrysoshnikov.com/ecmascript/chapter-5-functions/)
 
 [Chapter 6. Closures](http://dmitrysoshnikov.com/ecmascript/chapter-6-closures/)
+
+阅读完 ES3的执行上下文的概念,可以继续阅读[ES5(以及后续版本)对上下文做的调整和扩展](../2.3.context-es5/README.md)

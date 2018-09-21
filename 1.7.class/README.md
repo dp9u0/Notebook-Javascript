@@ -1,4 +1,4 @@
-#
+# class
 
 * 构造方法
 * extends

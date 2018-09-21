@@ -1,4 +1,4 @@
-#
+# function
 
 * Arguments 对象
 * 箭头函数
@@ -8,7 +8,5 @@
 * 剩余参数
 * getter
 * setter
-* async
+* async await
 * function*
-* yield
-* yield*

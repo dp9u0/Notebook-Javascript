@@ -35,6 +35,8 @@
 
 ### [原型链](/2.1.proto/README.md)
 
+> **主要内容** 介绍Javascript中原型
+
 ### 执行上下文、this、作用域、闭包
 
 [ES3](/2.2.context/README.md)
@@ -51,3 +53,7 @@
 ## 扩展篇
 
 ### [模块化](/3.1.module/README.md)
+
+* CommonJS
+* AMD
+* CMD

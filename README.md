@@ -51,5 +51,3 @@
 ## 扩展篇
 
 ### [模块化](/3.1.module/README.md)
-
-### [高级函数](/3.2.advance.function/README.md)

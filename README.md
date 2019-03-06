@@ -1,5 +1,7 @@
 # Javascript 技术栈介绍
 
+[Notebook系列](https://github.com/dp9u0/Notebook)
+
 这是个关于Javascript的技术栈,其中分为三部分:
 
 * [基础篇](#基础篇) : 介绍Javascript的基础知识,包括语法,基础类型等基本内容

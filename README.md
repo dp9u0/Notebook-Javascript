@@ -48,7 +48,9 @@
 * [闭包](/2.2.context/Closure.md)
 * [其他一些](/2.2.context/Extend.md)
 
-[ES5](/2.3.context-es5//README.md)
+[ES5](/2.3.context-es5/README.md)
+
+### [Promise](/2.4.promise/README.md)
 
 ## 扩展篇
 

@@ -124,7 +124,7 @@ function imgLoad(url) {
       if (request.status === 200) {
         resolve(request.response);
       } else {
-        reject(Error('Image didn\'t load successfully; error code:' 
+        reject(Error('Image didn\'t load successfully; error code:'
                      + request.statusText));
       }
     };

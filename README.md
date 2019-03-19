@@ -25,6 +25,8 @@
 
 ### [运算符](/1.2.运算符/README.md)
 
+运算符以及优先级
+
 ### [控制结构](/1.3.控制结构/README.md)
 
 ### [function](/1.4.function/README.md)
@@ -37,7 +39,7 @@
 
 ### [原型链](/2.1.proto/README.md)
 
-> **主要内容** 介绍Javascript中原型
+介绍Javascript中原型,以及原型链
 
 ### 执行上下文、this、作用域、闭包
 
@@ -53,6 +55,19 @@
 [ES5](/2.3.context-es5/README.md)
 
 ### [Promise](/2.4.promise/README.md)
+
+回调管理方式: Promise
+
+### [强制类型转换](/2.5.coercion/README.md)
+
+* ToPrimitive
+* ToBoolean
+* ToNumber
+* ToString
+* 强转数字
+* 强转布尔
+* 强转字符串
+* 宽松相等及严格相等
 
 ## 扩展篇
 
